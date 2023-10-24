@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WeatherApp</name>
+    </assembly>
+    <members>
+        <member name="T:WeatherApp.Models.ViewModels.WeatherInfoPageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:WeatherApp.Models.ViewModels.WeatherInfoPageViewModel.City_name">
+            <inheritdoc cref="F:WeatherApp.Models.ViewModels.WeatherInfoPageViewModel.city_name"/>
+        </member>
+        <member name="P:WeatherApp.Models.ViewModels.WeatherInfoPageViewModel.Weather_icon">
+            <inheritdoc cref="F:WeatherApp.Models.ViewModels.WeatherInfoPageViewModel.weather_icon"/>
+        </member>
+        <member name="P:WeatherApp.Models.ViewModels.WeatherInfoPageViewModel.Temp">
+            <inheritdoc cref="F:WeatherApp.Models.ViewModels.WeatherInfoPageViewModel.temp"/>
+        </member>
+        <member name="P:WeatherApp.Models.ViewModels.WeatherInfoPageViewModel.WeatherDescription">
+            <inheritdoc cref="F:WeatherApp.Models.ViewModels.WeatherInfoPageViewModel.weatherDescription"/>
+        </member>
+        <member name="P:WeatherApp.Models.ViewModels.WeatherInfoPageViewModel.Location">
+            <inheritdoc cref="F:WeatherApp.Models.ViewModels.WeatherInfoPageViewModel.location"/>
+        </member>
+        <member name="P:WeatherApp.Models.ViewModels.WeatherInfoPageViewModel.Humidity">
+            <inheritdoc cref="F:WeatherApp.Models.ViewModels.WeatherInfoPageViewModel.humidity"/>
+        </member>
+        <member name="P:WeatherApp.Models.ViewModels.WeatherInfoPageViewModel.Cloudcoverlevel">
+            <inheritdoc cref="F:WeatherApp.Models.ViewModels.WeatherInfoPageViewModel.cloudcoverlevel"/>
+        </member>
+        <member name="P:WeatherApp.Models.ViewModels.WeatherInfoPageViewModel.IsDay">
+            <inheritdoc cref="F:WeatherApp.Models.ViewModels.WeatherInfoPageViewModel.isDay"/>
+        </member>
+        <member name="F:WeatherApp.Models.ViewModels.WeatherInfoPageViewModel.fetchWeatherInfoCommand">
+            <summary>The backing field for <see cref="P:WeatherApp.Models.ViewModels.WeatherInfoPageViewModel.FetchWeatherInfoCommand"/>.</summary>
+        </member>
+        <member name="P:WeatherApp.Models.ViewModels.WeatherInfoPageViewModel.FetchWeatherInfoCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:WeatherApp.Models.ViewModels.WeatherInfoPageViewModel.FetchWeatherInfo"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.City_name">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "City_name" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Weather_icon">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Weather_icon" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Temp">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Temp" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.WeatherDescription">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "WeatherDescription" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Location">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Location" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Humidity">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Humidity" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Cloudcoverlevel">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Cloudcoverlevel" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsDay">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsDay" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.City_name">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "City_name" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Weather_icon">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Weather_icon" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Temp">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Temp" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.WeatherDescription">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "WeatherDescription" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Location">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Location" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Humidity">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Humidity" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Cloudcoverlevel">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Cloudcoverlevel" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsDay">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsDay" generated properties.</summary>
+        </member>
+    </members>
+</doc>
